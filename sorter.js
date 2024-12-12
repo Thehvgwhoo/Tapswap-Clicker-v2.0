@@ -2,7 +2,7 @@ import url from "url";
 import querystring from "querystring";
 import fs from "fs";
 
-const Url = "URL HERE!!";
+const Url = "https://app.tapswap.club/?bot=app_bot_0#tgWebAppData=query_id%3DAAF5xBBIAwAAAHnEEEg1dOlE";
 
 const parsedUrl = url.parse(Url);
 const queryParams = querystring.parse(parsedUrl.hash.slice(1));
